@@ -10,7 +10,7 @@ void Bullet::Update()
 }
 
 void Bullet::Render()
-{ // funkcja dzia³a tak: 
+{ 
 	COORD pos = { x, y }; 
 	HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE); 
 	SetConsoleCursorPosition(handle, pos); 
