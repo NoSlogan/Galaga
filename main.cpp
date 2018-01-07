@@ -10,6 +10,7 @@ int main()
 		{
 			start = clock(); 
 			manager.Input();
+			manager.PreRender
 			manager.Update(); 
 			manager.Render(); 
 	}
